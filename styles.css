@@ -12,8 +12,8 @@ body {
 article {
   font-family: "open sans", sans-serif;
   width: 278px;
-  box-shadow: 0 0 .5em gray;
-  margin: 8px;
+  box-shadow: 0 0 6px gray;
+  margin: 6px;
 }
 
 h1 {
