@@ -1,0 +1,162 @@
+section {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 10px;
+}
+
+body {
+  font-family: "open sans", sans-serif;
+
+}
+
+article {
+  font-family: "open sans", sans-serif;
+  width: 278px;
+  box-shadow: 0 0 .5em gray;
+  margin: 8px;
+}
+
+h1 {
+  margin: 18px;
+}
+
+h3 {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: 1em;
+  font-weight: normal;
+}
+
+h4 {
+  font-variant: small-caps;
+  margin-top: 8px;
+  margin-bottom: 0;
+  font-weight: normal;
+}
+
+nav ul {
+  list-style: none;
+}
+
+nav li {
+  font-family: "open sans", sans-serif;
+  font-size: 1.25em;
+  display: inline-block;
+  font-variant: small-caps;
+  padding-right: 1em;
+}
+.user-menu {
+  background-color: #000;
+  color: #fff;
+  text-align: right;
+}
+
+.user-menu p {
+  display: inline-block;
+}
+
+.user-menu ul {
+  display: none;
+  list-style: none;
+}
+
+.user-menu li {
+  display: inline-block;
+}
+
+nav {
+  background-color: #000;
+  color: #fff;
+  position: relative;
+  height: 44px;
+  padding-top: 35px;
+  padding-bottom: 35px;
+}
+
+nav img {
+  position: absolute;
+  right: 16px;
+  top: 35px;
+  height: 44px;
+}
+
+nav ul {
+  margin: 0;
+}
+
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.image-area {
+  padding: 0;
+  height: 142px;
+  position: relative;
+  background-color: pink;
+  box-shadow: 0 0 1px gray;
+}
+
+.image-area button {
+  padding: 0;
+  border-radius: 30px;
+  width: 60px;
+  height: 60px;
+  position: absolute;
+  top: 11px;
+  left: 11px;
+  border-style: none;
+  background-color: #fff;
+}
+
+.image-area h4 {
+  margin: 0;
+  font-variant: small-caps;
+  position: absolute;
+  top: 11px;
+  right: 18px;
+}
+
+.image-area p {
+  margin: 0;
+  font-size: 2em;
+  position: absolute;
+  top: 30px;
+  right: 16px;
+}
+
+.text-area {
+  padding-left: 18px;
+  padding-right: 18px;
+  padding-top: 14px;
+  padding-bottom: 20px;
+}
+
+.text-area a {
+  font-size: .675em;
+  line-height: 1.5;
+  /*max-width: 242px;*/
+  background-color: grey;
+  display: block;
+  word-wrap: break-word;
+  margin-top: 20px;
+  margin-bottom: 14px;
+  padding-top: 6px;
+  padding-left: 8px;
+  padding-right: 8px;
+  padding-bottom: 12px;
+  text-decoration: none;
+}
+
+.attachment-number {
+  font-size: 2em;
+}
+
+.playlist-name {
+  line-height: 1.5;
+}
+
+.date {
+  margin-top: 4px;
+  font-size: .675em;
+}
